@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abidahmad3d.org/sitemap.xml

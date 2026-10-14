@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jewelry CAD Ring Test Renders — Abid Ahmad</title>
+<meta name="description" content="Case study: jewelry CAD ring test renders and material studies by Abid Ahmad.">
+<link rel="canonical" href="https://abidahmad3d.org/projects/ring-test.html">
+<meta property="og:title" content="Jewelry CAD Ring Test Renders — Abid Ahmad">
+<meta property="og:image" content="https://abidahmad3d.org/assets/ring-test.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23080a0f'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='serif' font-size='34' fill='%235b8cff'%3EAA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="../index.html">Abid<span>.</span>Ahmad</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links" id="navlinks" aria-label="Primary">
+      <a href="../index.html#about">About</a><a href="../index.html#services">Services</a><a href="../index.html#portfolio">Portfolio</a><a href="../index.html#skills">Skills</a><a href="../index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-cta"><a class="btn btn--ghost btn--sm" href="https://www.fiverr.com/abidahmadullah" target="_blank" rel="noopener">Hire on Fiverr</a></div>
+  </div>
+</header>
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumbs"><a href="../index.html">Home</a> / <a href="../index.html#portfolio">Portfolio</a> / Jewelry CAD Ring Test Renders</div>
+    <span class="kicker">CAD · Material study</span>
+    <h1 class="section-title" style="font-size:clamp(2.2rem,4vw,3.4rem)">Jewelry CAD Ring Test Renders</h1>
+    <p class="section-sub" style="max-width:760px">Test renders exploring ring CAD forms and material/finish variations.</p>
+  </div>
+</section>
+<main class="section">
+  <div class="container case-grid">
+    <div class="case-hero-img reveal">
+      <img src="../assets/ring-test.jpg" alt="Jewelry CAD ring test renders">
+    </div>
+    <div class="case-body reveal">
+      <div class="case-meta">
+        <div><strong>Category</strong><span>Jewelry CAD</span></div>
+        <div><strong>Focus</strong><span>CAD forms, material study</span></div>
+        <div><strong>Source</strong><span>Published on Behance</span></div>
+        <div><strong>Status</strong><span>Case study draft</span></div>
+      </div>
+      <h2>Project overview</h2>
+      <p>A set of jewelry CAD ring studies examining form, surface detail, and material response through test renders. Useful as exploration of variations prior to committing to a final print-ready design.</p>
+      <h2>Notes</h2>
+      <p>Specific client, brief, and production steps beyond the Behance publication are not documented here. Placeholders are used rather than invented details.</p>
+      <div style="margin-top:30px;display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn btn--primary" href="../index.html#contact">Discuss a similar project</a>
+        <a class="btn btn--ghost" href="https://www.behance.net/gallery/226329137/Jewelry-CAD-ring-test-renders" target="_blank" rel="noopener">View on Behance ↗</a>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div><div class="logo" style="margin-bottom:10px">Abid<span>.</span>Ahmad</div><p style="color:var(--muted);font-size:.86rem;margin:0;max-width:320px">3D artist crafting product visualization, jewelry CAD, renders and animation.</p></div>
+    <div><h5>Explore</h5><a href="../index.html#about">About</a><a href="../index.html#services">Services</a><a href="../index.html#portfolio">Portfolio</a><a href="../index.html#contact">Contact</a></div>
+    <div><h5>Profiles</h5><a href="https://www.behance.net/abidahmadullah3d" target="_blank" rel="noopener">Behance</a><a href="https://www.fiverr.com/abidahmadullah" target="_blank" rel="noopener">Fiverr</a><a href="https://www.upwork.com/freelancers/~01fbfe8b749241e0c5" target="_blank" rel="noopener">Upwork</a></div>
+  </div>
+  <div class="container footer-bottom"><div>© <span id="yr"></span> Abid Ahmad.</div></div>
+</footer>
+<script>
+  const hamburger=document.getElementById('hamburger');const navlinks=document.getElementById('navlinks');
+  hamburger?.addEventListener('click',()=>navlinks.classList.toggle('open'));
+  navlinks?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navlinks.classList.remove('open')));
+  const yr=document.getElementById('yr');if(yr)yr.textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
